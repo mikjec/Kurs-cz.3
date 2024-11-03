@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #333;
+}
+
+.form {
+  color: #8a8a8a;
+  background-color: #f0f0f0;
+  height: 30vh;
+  width: 25vh;
+  padding: 20px 10px;
+  border: 2px solid rgb(108, 108, 108);
+  border-radius: 10px;
+}
+.form__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  color: #646464;
+  font-size: 30px;
+}
+.form__inputs {
+  padding: 15px;
+}
+.form__input {
+  padding: 3px 15px;
+  margin: 3px 0 20px;
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+}
+.form__input:focus {
+  border: 1px solid #a7a7a7;
+}
+.form__input-title {
+  font-size: 12px;
+}
+.form__btns {
+  padding: 0 0 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.form__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form__btn--highlight {
+  background-color: royalblue;
+  color: #f0f0f0;
+}/*# sourceMappingURL=main.css.map */
